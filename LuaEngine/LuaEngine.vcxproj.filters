@@ -1,0 +1,119 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Utility">
+      <UniqueIdentifier>{3c0723f6-ebbd-498a-a8f0-9236b345ffda}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game">
+      <UniqueIdentifier>{8e2a7b7a-8382-41a0-b3e0-c6fe85b7436c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Addresses">
+      <UniqueIdentifier>{44b30fa5-d83c-4918-b390-a27f08c038cd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utility\Detours">
+      <UniqueIdentifier>{d6199fab-feb8-4495-9193-9a7d0a446d6f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\GameInterface">
+      <UniqueIdentifier>{0d4341e5-38eb-49c6-88ff-af42f3a2df0d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\JassInterface">
+      <UniqueIdentifier>{76061b83-4e96-4459-bb85-e307f460de81}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="LuaEngine.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="LuaScript.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils.cpp">
+      <Filter>Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="Addresses.cpp">
+      <Filter>Game\Addresses</Filter>
+    </ClCompile>
+    <ClCompile Include="Detours.cpp">
+      <Filter>Utility\Detours</Filter>
+    </ClCompile>
+    <ClCompile Include="GameInterface.cpp">
+      <Filter>Game\GameInterface</Filter>
+    </ClCompile>
+    <ClCompile Include="JassInterface.cpp">
+      <Filter>Game\JassInterface</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="LuaEngine.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="LuaScript.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils.h">
+      <Filter>Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="Structures.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Addresses.h">
+      <Filter>Game\Addresses</Filter>
+    </ClInclude>
+    <ClInclude Include="Detours.h">
+      <Filter>Utility\Detours</Filter>
+    </ClInclude>
+    <ClInclude Include="GameInterface.h">
+      <Filter>Game\GameInterface</Filter>
+    </ClInclude>
+    <ClInclude Include="JassDefinitions.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="SafeQueue.h">
+      <Filter>Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="JassInterface.h">
+      <Filter>Game\JassInterface</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="LuaEngine.def">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="res\LuaEngine.rc2">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="LuaEngine.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
