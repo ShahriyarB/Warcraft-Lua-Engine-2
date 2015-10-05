@@ -4,7 +4,7 @@
 #### Requirements
 
 - Platform: Windows
-- MS Visual Studio ≥ 12 (2013 Update 4)
+- MS Visual Studio ≥ 12 (2013 Update 4) (Commercial Versions)
 
 #### Reporting issues
 
